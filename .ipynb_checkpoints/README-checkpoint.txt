@@ -37,7 +37,8 @@ Open that link in your browser or go to http://localhost:8888 and paste in the t
 
 - The Dockerfile installs CPU-only PyTorch, so no GPU is required.  
 - Datasets (MNIST) are loaded automatically by PyTorch the first time you run the notebook.  
-  
+- If notebook outputs (plots, training results) are saved in the repo, you will see them directly on GitHub.  
+- To clear outputs and run fresh: in Jupyter, go to Kernel > Restart & Clear Output before saving.  
 
 ## Requirements (handled by Docker)
 
@@ -50,7 +51,7 @@ Open that link in your browser or go to http://localhost:8888 and paste in the t
 
 ## Contact
 
-If you have questions or want to contact me, feel free to connect:  
+If you have questions or want to collaborate, feel free to connect:  
 - GitHub: https://github.com/ThinCalligrapher
 - Email: cleino@crimson.ua.edu
 - Phone: 414-627-8588
